@@ -1,0 +1,9 @@
+_target_: src.data.dlib_datamodule.DlibDatamodule
+data_dir: data/ibug_300W_large_face_landmark_dataset
+batch_size: 64
+num_workers: 0
+pin_memory: false
+data:
+  _target_: src.data.components.dlib_dataset.DlibDataset
+  data_dir: data/ibug_300W_large_face_landmark_dataset
+  label_file: labels_ibug_300W_train.xml

@@ -1,0 +1,6 @@
+_target_: src.data.dlib_datamodule.DlibDatamodule
+batch_size: 64
+num_workers: 0
+pin_memory: false
+data:
+  _target_: src.data.dlib_dataset.DlibDataset

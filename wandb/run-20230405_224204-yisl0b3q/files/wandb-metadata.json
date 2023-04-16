@@ -1,0 +1,65 @@
+{
+    "os": "Linux-5.4.0-146-generic-x86_64-with-glibc2.31",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-04-05T15:42:05.616746",
+    "startedAt": "2023-04-05T15:42:04.636900",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/mnt/banana/k66/thuy/filter_project-main/sample.py",
+    "codePath": "sample.py",
+    "git": {
+        "remote": "https://github.com/NguyenThuy25/filter_project-main.git",
+        "commit": "e74460da57ffbe06aca3f1e34eb1cbfbea850802"
+    },
+    "email": "21020124@vnu.edu.vn",
+    "root": "/mnt/banana/k66/thuy/filter_project-main",
+    "host": "vision",
+    "username": "k66",
+    "executable": "/home/k66/anaconda3/envs/filter/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 3299.9995,
+        "min": 800.0,
+        "max": 3500.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3299.999,
+            "min": 800.0,
+            "max": 3500.0
+        },
+        {
+            "current": 3300.0,
+            "min": 800.0,
+            "max": 3500.0
+        },
+        {
+            "current": 3300.0,
+            "min": 800.0,
+            "max": 3500.0
+        },
+        {
+            "current": 3299.999,
+            "min": 800.0,
+            "max": 3500.0
+        }
+    ],
+    "disk": {
+        "total": 218.50913619995117,
+        "used": 201.9151153564453
+    },
+    "gpu": "NVIDIA GeForce GTX 1080 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1080 Ti",
+            "memory_total": 11721506816
+        }
+    ],
+    "memory": {
+        "total": 15.52304458618164
+    }
+}
