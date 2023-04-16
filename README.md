@@ -1235,6 +1235,8 @@ conda activate myenv
 # install requirements
 pip install -r requirements.txt
 ```
+# Download dataset:
+https://drive.google.com/drive/folders/13Z8ap1p6xQVRoaPi95s9iDbeRh2rkuZT?usp=share_link
 
 Train model with default configuration
 
